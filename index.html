@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>memory card</title>
+</head>
+<body>
+  <h1>memory card</h1>
+  <div class="topTools">
+    <div class="time">
+     <span class="minute">00</span>
+     <span>:</span>
+     <span class="second">00</span>
+    </div>
+
+    <span class="refresh"><img src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/refresh.svg" alt="refreshImage"></i></span> 
+  </div>
+  <section class="memory-game">
+  <div class="memory-card" data-id="1">
+    <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/elephant.png" alt="Front image">
+    <div class="back-face"></div>
+  </div>
+  <div class="memory-card" data-id="1">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/elephant.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="2">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/giraffe.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="2">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/giraffe.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+
+ <div class="memory-card" data-id="3">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/lion.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="3">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/lion.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="4">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/turtle.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="4">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/turtle.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="5">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/whale.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="5">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/whale.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="6">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/zebra.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+ <div class="memory-card" data-id="6">
+   <img class="front-face" src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/zebra.png" alt="Front image">
+   <div class="back-face"></div>
+ </div>
+
+
+  </section>
+
+  <section id="congratsSection" class="hidden">
+  <div id="congratsDiv">
+  <img src="https://raw.githubusercontent.com/reeyhanyilmaz/JavaScript-MemoryCardGame/bcfa854e3b580cbc9d9b6da910e84b348f6d4c5a/assets/congrats.jpg" alt="congratsImage">
+  <p class="final">
+   <span id="totalTime"></span>
+  </p>
+  <br>
+  <p>
+  <a class="again" >play again</a>
+  </p>
+  </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
